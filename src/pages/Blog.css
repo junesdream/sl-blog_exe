@@ -1,0 +1,75 @@
+.blog-wrap {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.blog-goBack {
+  text-decoration: none;
+  font-size: 1.0rem;
+ -webkit-animation: animatedBackground_b 5s linear infinite alternate;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  display: block;
+}
+@keyframes animatedBackground_b{
+    0% {color: #ff8b00}
+    10% {color: #e8ff00}
+    20% {color: #5dff00}
+    30% {color: #00ff2e}
+    40% {color: #00ffb9}
+    50% {color: #00b9ff}
+    60% {color: #002eff}
+    70% {color: #5d00ff}
+    80% {color: #e800ff}
+    90% {color: #ff008b}
+    100% {color: #ff0000}
+}
+
+.blog-wrap header {
+  text-align: center;
+}
+
+.blog-date {
+  font-size: 0.8rem;
+  font-weight: 500;
+  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #FF0000;
+    -webkit-animation: animatedBackground_c 2s infinite alternate;
+}
+
+@keyframes animatedBackground_c {
+    0% {-webkit-text-stroke-color: #ff8b00}
+    10% {-webkit-text-stroke-color: #e8ff00}
+    20% {-webkit-text-stroke-color: #5dff00}
+    30% {-webkit-text-stroke-color: #00ff2e}
+    40% {-webkit-text-stroke-color: #00ffb9}
+    50% {-webkit-text-stroke-color: #00b9ff}
+    60% {-webkit-text-stroke-color: #002eff}
+    70% {-webkit-text-stroke-color: #5d00ff}
+    80% {-webkit-text-stroke-color: #e800ff}
+    90% {-webkit-text-stroke-color: #ff008b}
+    100% {-webkit-text-stroke-color: #ff0000}
+}
+
+.blog-wrap img {
+  width: 100%;
+  border: 5px solid transparent;
+  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image-slice: 1;
+}
+
+.blog-subCategory {
+  display: flex;
+  justify-content: center;
+}
+.blog-subCategory > div {
+  margin: 1rem;
+}
+.blog-desc {
+  padding: 1rem;
+  margin-top: 1.5rem;
+  color:  #A9B2C3;
+  text-align: justify;
+}

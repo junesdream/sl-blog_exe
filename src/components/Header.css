@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&family=Darker+Grotesque:wght@300&family=Josefin+Sans:wght@300&family=Libre+Barcode+39+Text&family=Monoton&family=Montserrat&family=Road+Rage&family=Roboto:ital,wght@0,300;0,400;0,700;1,500&family=Ropa+Sans&family=Single+Day&display=swap');
+
+.home-header {
+    padding: 10px;
+  /* height: 40vh; */
+  text-align: center;
+  background-color: black;
+ 
+}
+
+
+/* .home-header {
+    height: 100vh;
+	background-position: center;
+	background-size: cover;
+	padding-top: clamp(70px, 25vh, 220px);
+	box-shadow: inset 0 0 0 1000px rgba (0, 0, 0, 0.2);
+}
+.headerVideo{
+    object-fit: cover;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(
+		to right,
+		rgba(0, 0, 0, 0.7),
+		rgba(0, 0, 0, 0.1)
+	);
+	top: 0;
+	position: absolute;
+	z-index: -1;
+} */
+
+
+
+
+/* .home-header video {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+} */
+
+/* .home-header {
+  text-align: center;
+} */
+
+.home-header h2 {
+  
+  font-size: 2rem;
+  background-image: linear-gradient(0deg, #f00 25%, #ffb300 60%);
+    color: #0000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.home-header h1 {
+  font-size: 6rem;
+  font-family: 'Single Day', cursive;
+  margin-bottom: 1rem;
+ background-image: -webkit-linear-gradient(left, #f00, #ff2b00, #f50, #ff8000, #fa0, #ffd500, #ff0, #d4ff00, #af0, #80ff00, #5f0, #2bff00, #0f0, #00ff2a, #0f5, #00ff80, #0fa, #00ffd5, #0ff, #00d5ff, #0af, #0080ff, #05f, #002aff, #00f, #2b00ff, #50f, #8000ff, #a0f, #d400ff, #f0f, #ff00d4, #f0a, #ff0080, #f05, #ff002b, #f00);
+    -webkit-animation: animatedBackground_a 5s linear infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0000;
+    background-clip: text;
+}
+@keyframes animatedBackground_a {
+    0% { background-position: 0 0 }
+    100% { background-position: -500px 0 }
+}
+
+
+.home-header p {
+  color: #a9a9a9;
+  font-weight: 500;
+}
